@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+/* General Styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333; /* Darker text color for better readability */
+    background-color: #f8f9fa; /* Light background color for better contrast */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+#quiz {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    box-sizing: border-box;
+    background-image: url('images/Design 1.png'); /* Set background image */
+    background-size: cover; /* Ensure the background image covers the container */
+    background-position: center; /* Center the background image */
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #007bff; /* Blue color for the heading */
+}
+
+.question {
+    display: none;
+}
+
+.question.active {
+    display: block;
+}
+
+.result {
+    display: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 30px;
+    text-align: center;
+    color: #333;
+    background: #ffffff; /* White background for result section */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.result p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.question h3 {
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    color: #007bff; /* Blue color for question text */
+}
+
+.question p {
+    font-size: 1.125rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.btn-custom {
+    width: 100%;
+    margin-top: 10px;
+    padding: 14px;
+    font-size: 1.125rem;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, border-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    transform: translateY(-2px);
+}
+
+.btn-custom.correct {
+    background-color: #28a745;
+    color: #ffffff;
+}
+
+.btn-custom.wrong {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+/* Additional Styling for Buttons */
+.btn-custom.correct:hover {
+    background-color: #218838;
+}
+
+.btn-custom.wrong:hover {
+    background-color: #c82333;
+}
+
+/* Timer Style */
+#timer {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #dc3545; /* Red color for timer */
+}

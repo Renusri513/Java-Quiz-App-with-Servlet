@@ -1,0 +1,14 @@
+This project is a dynamic Java-based quiz application designed to provide a user-friendly platform for learning and testing Java programming skills. The application caters to both users and administrators with distinct functionalities.
+For users, the application offers various Java topics, each categorized into three levels: Beginner, Intermediate, and Advanced. Each level contains quizzes with a flexible number of questions. The questions allow either single or multiple correct answers, making the quizzes diverse and challenging. Users can participate in any quiz, any number of times, and can also view their scores for continuous learning and improvement.
+On the admin side, the system allows for dynamic management of quizzes. Administrators can create new quizzes, update existing ones, and view all quizzes through an easy-to-use interface.
+This quiz app serves as an efficient educational tool for both learners and administrator, promoting interactive learning while offering comprehensive quiz management capabilities.
+To Run this project follow the below instructions:
+1.Download Eclipse for entrepreneur
+2.Download XAAMP for MySQL
+3.create a workspace for your project
+4.place mySql-connector jar file in lib folder which is present in apache-tomcat-8.5.98 folder which is in your workspace.
+5.import the javaquizapp.sql in your MySQL database.
+6.Start the XAAMP.
+7.Import javaquizapp.sql in MySQL 
+8.open the project folder in Eclipse.
+9.Start the server.
